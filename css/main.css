@@ -12,6 +12,13 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+
+  transition: all 200ms linear;
+}
+
+.polaroid:hover {
+  transform: rotate(0deg);
+  z-index: 5;
 }
 
 .polaroid > img {
@@ -23,7 +30,6 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
-
 
 figcaption {
   text-align: center;
@@ -38,6 +44,8 @@ body figure:nth-child(1) {
   left: 250px;
   bottom: 500px;
   z-index: 1;
+
+  transform: rotate(-10deg);
 }
 
 body figure:nth-child(2) {
@@ -45,6 +53,8 @@ body figure:nth-child(2) {
   left: 200px;
   bottom: 300px;
   z-index: 3;
+
+  transform: rotate(5deg);
 }
 
 body figure:nth-child(3) {
@@ -52,4 +62,6 @@ body figure:nth-child(3) {
   left: 400px;
   bottom: 275px;
   z-index: 2;
+
+  transform: rotate(25deg);
 }
