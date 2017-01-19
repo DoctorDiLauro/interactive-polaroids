@@ -23,3 +23,33 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+
+figcaption {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+
+body figure:nth-child(1) {
+  position: absolute;
+  left: 250px;
+  bottom: 500px;
+  z-index: 1;
+}
+
+body figure:nth-child(2) {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+  z-index: 3;
+}
+
+body figure:nth-child(3) {
+  position: absolute;
+  left: 400px;
+  bottom: 275px;
+  z-index: 2;
+}
